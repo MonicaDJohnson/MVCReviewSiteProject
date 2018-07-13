@@ -18,16 +18,13 @@ C:\Users\WeCanCodeIT\source\repos\MVC Review Site Project\MVC Review Site Projec
 C:\Users\WeCanCodeIT\source\repos\MVC Review Site Project\MVC Review Site Project\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
 C:\Users\WeCanCodeIT\source\repos\MVC Review Site Project\MVC Review Site Project\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
 C:\Users\WeCanCodeIT\source\repos\MVC Review Site Project\MVC Review Site Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\WeCanCodeIT\source\repos\MVC Review Site Project\MVC Review Site Project\bin\roslyn\Microsoft.Win32.Primitives.dll
 C:\Users\WeCanCodeIT\source\repos\MVC Review Site Project\MVC Review Site Project\bin\roslyn\System.AppContext.dll
 C:\Users\WeCanCodeIT\source\repos\MVC Review Site Project\MVC Review Site Project\bin\roslyn\System.Collections.Immutable.dll
 C:\Users\WeCanCodeIT\source\repos\MVC Review Site Project\MVC Review Site Project\bin\roslyn\System.Console.dll
 C:\Users\WeCanCodeIT\source\repos\MVC Review Site Project\MVC Review Site Project\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-C:\Users\WeCanCodeIT\source\repos\MVC Review Site Project\MVC Review Site Project\bin\roslyn\System.Diagnostics.Process.dll
 C:\Users\WeCanCodeIT\source\repos\MVC Review Site Project\MVC Review Site Project\bin\roslyn\System.Diagnostics.StackTrace.dll
 C:\Users\WeCanCodeIT\source\repos\MVC Review Site Project\MVC Review Site Project\bin\roslyn\System.IO.Compression.dll
 C:\Users\WeCanCodeIT\source\repos\MVC Review Site Project\MVC Review Site Project\bin\roslyn\System.IO.FileSystem.dll
-C:\Users\WeCanCodeIT\source\repos\MVC Review Site Project\MVC Review Site Project\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
 C:\Users\WeCanCodeIT\source\repos\MVC Review Site Project\MVC Review Site Project\bin\roslyn\System.IO.FileSystem.Primitives.dll
 C:\Users\WeCanCodeIT\source\repos\MVC Review Site Project\MVC Review Site Project\bin\roslyn\System.IO.Pipes.dll
 C:\Users\WeCanCodeIT\source\repos\MVC Review Site Project\MVC Review Site Project\bin\roslyn\System.Reflection.Metadata.dll
@@ -39,7 +36,6 @@ C:\Users\WeCanCodeIT\source\repos\MVC Review Site Project\MVC Review Site Projec
 C:\Users\WeCanCodeIT\source\repos\MVC Review Site Project\MVC Review Site Project\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
 C:\Users\WeCanCodeIT\source\repos\MVC Review Site Project\MVC Review Site Project\bin\roslyn\System.Security.Principal.Windows.dll
 C:\Users\WeCanCodeIT\source\repos\MVC Review Site Project\MVC Review Site Project\bin\roslyn\System.Text.Encoding.CodePages.dll
-C:\Users\WeCanCodeIT\source\repos\MVC Review Site Project\MVC Review Site Project\bin\roslyn\System.Threading.Thread.dll
 C:\Users\WeCanCodeIT\source\repos\MVC Review Site Project\MVC Review Site Project\bin\roslyn\System.ValueTuple.dll
 C:\Users\WeCanCodeIT\source\repos\MVC Review Site Project\MVC Review Site Project\bin\roslyn\System.Xml.ReaderWriter.dll
 C:\Users\WeCanCodeIT\source\repos\MVC Review Site Project\MVC Review Site Project\bin\roslyn\System.Xml.XmlDocument.dll
@@ -120,3 +116,5 @@ C:\Users\WeCanCodeIT\source\repos\MVC Review Site Project\MVC Review Site Projec
 C:\Users\WeCanCodeIT\source\repos\MVC Review Site Project\MVC Review Site Project\obj\Debug\MVC Review Site Project.csproj.CopyComplete
 C:\Users\WeCanCodeIT\source\repos\MVC Review Site Project\MVC Review Site Project\obj\Debug\MVC Review Site Project.dll
 C:\Users\WeCanCodeIT\source\repos\MVC Review Site Project\MVC Review Site Project\obj\Debug\MVC Review Site Project.pdb
+C:\Users\WeCanCodeIT\source\repos\MVC Review Site Project\MVC Review Site Project\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\WeCanCodeIT\source\repos\MVC Review Site Project\MVC Review Site Project\bin\roslyn\System.IO.Pipes.AccessControl.dll
