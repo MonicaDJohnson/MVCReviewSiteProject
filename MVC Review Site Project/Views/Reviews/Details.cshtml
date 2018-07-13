@@ -1,0 +1,50 @@
+﻿@model MVC_Review_Site_Project.Models.Review
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Review</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Category.BrandName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Category.BrandName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserTitle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserTitle)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Content)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Content)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserPublishDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserPublishDate)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ReviewPrimaryID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
