@@ -17,14 +17,15 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink("Main Menu", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                    <li>@Html.ActionLink("Categories", "Reviews", "Home")</li>
+                    @*<li>@Html.ActionLink("About", "About", "Home")</li>
+                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>*@@*//I commented these out because I don't need them, and they are clogging up the nav bar. They are still showing up when you run the site, and I'm not sure why.*@
+                    <li>@Html.ActionLink("Categories", "Index", "Categories")</li>@*//here is where I am lost.*@
+                    <li>@Html.ActionLink("Reviews", "Index", "Reviews")</li>
                 </ul>
                 @Html.Partial("_LoginPartial")
             </div>
@@ -41,6 +42,6 @@
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
-    <button class="button" id="mainhomepage">testing</button>@*//see my comment in the Review details html.*@
+    <button class="button" id="mainhomepage">testing</button>@*//see my comment in the Review details html.*@@*//Also, when I went to comment this out, the site wouldn't load.*@
 </body>
 </html>

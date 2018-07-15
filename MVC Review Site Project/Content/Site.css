@@ -47,3 +47,21 @@ textarea {
 #reviewsindex{
     background-color:dodgerblue;
 }
+
+#landingpage{
+    background-color:aqua;
+}
+
+#earbudone {
+    background-image: url('file:///C:\Users\WeCanCodeIT\Desktop\earbuds.jpg');
+    background-size:cover; 
+
+}
+
+#earbudtwo {
+    background-image: url('file:///C:\Users\WeCanCodeIT\Desktop\earbuds two.jpg');
+}
+
+#earbudthree {
+    background-image: url('file:///C:\Users\WeCanCodeIT\Desktop\earbuds three.jpg');
+}
