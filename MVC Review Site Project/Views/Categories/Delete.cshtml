@@ -3,31 +3,30 @@
 @{
     ViewBag.Title = "Delete";
 }
-
+@*//changed to divs*@
 <h2>Delete</h2>
 
 <h3>Are you sure you want to delete this?</h3>
 <div>
     <h4>Category</h4>
     <hr />
-    <dl class="dl-horizontal">
-        <dt>
+    <div class="row">
+        <div class="col">
             @Html.DisplayNameFor(model => model.BrandName)
-        </dt>
-
-        <dd>
+        </div>
+        <div class="col">
             @Html.DisplayFor(model => model.BrandName)
-        </dd>
+        </div>
 
-        <dt>
+        <div class="col">
             @Html.DisplayNameFor(model => model.Price)
-        </dt>
+        </div>
 
-        <dd>
+        <div class="col">
             @Html.DisplayFor(model => model.Price)
-        </dd>
-
-    </dl>
+        </div>
+    </div>
+</div>
 
     @using (Html.BeginForm()) {
         @Html.AntiForgeryToken()
@@ -36,5 +35,4 @@
             <input type="submit" value="Delete" class="btn btn-default" /> |
             @Html.ActionLink("Back to List", "Index")
         </div>
-    }
-</div>
+    

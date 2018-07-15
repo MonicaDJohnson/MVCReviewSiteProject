@@ -3,13 +3,14 @@
 @{
     ViewBag.Title = "Index";
 }
+<div class="container" id="reviewsindex">
+    <h2>Index</h2>
 
-<h2>Index</h2>
-
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
-<div class="container">
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <div class="container">
+        @*//switched from tables to divs*@
     <div class="row">
         <div class="col">
             @Html.DisplayNameFor(model => model.Category.BrandName)
@@ -46,11 +47,11 @@
             <div class="col">
                 @Html.ActionLink("Edit", "Edit", new { id = item.ReviewPrimaryID }) |
                 @Html.ActionLink("Details", "Details", new { id = item.ReviewPrimaryID }) |
-                @Html.ActionLink("Delete", "Delete", new { id = item.ReviewPrimaryID })
+                <button class="button" id="reviewindex"> @Html.ActionLink("Delete", "Delete", new { id = item.ReviewPrimaryID })</button>@*//see my comment in the Review details html.*@
             </div>
         </div>
 
     }
 
 </div>
-
+</div>

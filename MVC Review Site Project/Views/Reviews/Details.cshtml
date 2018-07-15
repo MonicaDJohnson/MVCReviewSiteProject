@@ -3,48 +3,59 @@
 @{
     ViewBag.Title = "Details";
 }
+<div class="container" id="reviewsdetails">
+    <h2>Details</h2>
 
-<h2>Details</h2>
+    <div>
+        <h4>Review</h4>
+        <hr />
 
-<div>
-    <h4>Review</h4>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.Category.BrandName)
-        </dt>
+        <h2>Card</h2>
 
-        <dd>
-            @Html.DisplayFor(model => model.Category.BrandName)
-        </dd>
+        <div class="card">
+            <img src="img_avatar.png" alt="Avatar" style="width:100%">
+            <div class="container">
+                <h4><b>John Doe</b></h4>
+                <p>Architect & Engineer</p>@*//I put the card here because this is the page it is supposed to show up on.*@
+            </div>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.UserTitle)
-        </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.UserTitle)
-        </dd>
+            <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            @Html.DisplayNameFor(model => model.Category.BrandName)
+                        </div>
+                    </div>
+                    <div class="col">
+                        @Html.DisplayFor(model => model.Category.BrandName)
+                    </div>
+                <div class="col">
+                    @Html.DisplayNameFor(model => model.UserTitle)
+                     </div>
+                <div class="col">
+                    @Html.DisplayFor(model => model.UserTitle)
+                </div>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Content)
-        </dt>
+                <div class="col">
+                    @Html.DisplayNameFor(model => model.Content)
+                </div>
 
-        <dd>
-            @Html.DisplayFor(model => model.Content)
-        </dd>
+                <div class="col">
+                    @Html.DisplayFor(model => model.Content)
+                </div>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.UserPublishDate)
-        </dt>
+                <div class="col">
+                    @Html.DisplayNameFor(model => model.UserPublishDate)
+                </div>
 
-        <dd>
-            @Html.DisplayFor(model => model.UserPublishDate)
-        </dd>
-
-    </dl>
+                <div class="col">
+                    @Html.DisplayFor(model => model.UserPublishDate)
+                </div>
+            </div>
+        </div>
+        <p>
+            @Html.ActionLink("Edit", "Edit", new { id = Model.ReviewPrimaryID }) |
+            <button class="button" id="reviewsdetails">  @Html.ActionLink("Back to List", "Index")</button>@*// i made this button as a test to make sure that my styling was showing up.*@
+        </p>
+    </div>
 </div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.ReviewPrimaryID }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>
