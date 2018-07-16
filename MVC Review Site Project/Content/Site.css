@@ -53,15 +53,21 @@ textarea {
 }
 
 #earbudone {
-    background-image: url('file:///C:\Users\WeCanCodeIT\Desktop\earbuds.jpg');
-    background-size:cover; 
-
+    background-image: url('earbuds.jpg');
+   /*background-size:cover;*/
+   
 }
 
 #earbudtwo {
-    background-image: url('file:///C:\Users\WeCanCodeIT\Desktop\earbuds two.jpg');
+    background-image: url('earbuds two.jpg');
+    /*background-size:cover;*/
 }
 
 #earbudthree {
-    background-image: url('file:///C:\Users\WeCanCodeIT\Desktop\earbuds three.jpg');
+    background-image: url('earbuds three.jpg');
+    /*background-size:cover;*/
+}
+
+.container {
+    font-family: 'Pattaya', sans-serif;
 }
